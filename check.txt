@@ -1,0 +1,9 @@
+curl -X POST https://salary-prediction-api-i425.onrender.com/predict \
+  -H "Content-Type: application/json" \
+  -d '{
+    "Age": 29,
+    "Gender": "Male",
+    "Education_Level": "Master'\''s",
+    "Job_Title": "Data Scientist",
+    "Years_of_Experience": 5
+}'
